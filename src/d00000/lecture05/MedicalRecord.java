@@ -3,7 +3,7 @@ package d00000.lecture05;
 /**
  * カルテを表すクラス
  */
-class MedicalRecord {
+public class MedicalRecord {
     /** 名前を格納するフィールド */
     public String name;
     /** 体重を格納するフィールド */
