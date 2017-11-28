@@ -49,7 +49,7 @@ public class MedicalRecord {
      * METsと運動時間[h]から消費エネルギーを計算する
      * @param hours 運動時間[h]
      * @param mets METs
-     * @return
+     * @return 消費エネルギー
      */
     public double calcEnergyExpenditure(double hours, double mets) {
         return mets * weight * hours * 1.05;
