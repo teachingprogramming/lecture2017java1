@@ -45,4 +45,13 @@ public class MedicalRecord {
         return bmi * height_m * height_m;
     }
 
+    /**
+     * METsと運動時間[h]から消費エネルギーを計算する
+     * @param hours 運動時間[h]
+     * @param mets METs
+     * @return
+     */
+    public double calcEnergyExpenditure(double hours, double mets) {
+        return mets * weight * hours * 1.05;
+    }
 }
