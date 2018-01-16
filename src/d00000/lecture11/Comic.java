@@ -3,7 +3,7 @@ package d00000.lecture11;
 public class Comic extends Book {
     /** 巻数 */
     public int volume;
-    /** 最新か？ */
+    /** 全1巻か? */
     public boolean inOneVolume;
 
     /** コンストラクタ */
